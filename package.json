@@ -5,6 +5,9 @@
   "repository": "git@github.com:dougtq/puppeteerex.git",
   "author": "Douglas Alves <douglas.expalves@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
   "dependencies": {
     "prompt": "^1.0.0",
     "puppeteer": "^0.12.0",
