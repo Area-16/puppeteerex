@@ -1,0 +1,12 @@
+{
+  "name": "puppeteerex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dougtq/puppeteerex.git",
+  "author": "Douglas Alves <douglas.expalves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^0.12.0",
+    "standard": "^10.0.3"
+  }
+}
