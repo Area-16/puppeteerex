@@ -6,6 +6,7 @@
   "author": "Douglas Alves <douglas.expalves@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "prompt": "^1.0.0",
     "puppeteer": "^0.12.0",
     "standard": "^10.0.3"
   }
