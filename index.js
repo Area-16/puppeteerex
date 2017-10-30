@@ -27,6 +27,7 @@ prompt.get(['first', 'second'], (err, result) => {
     await page.emulate(devices['iPad'])
     await page.goto(result.first.toString())
     await page.screenshot({ path: `./assets/fullpage${new Date()}.png`, fullPage: true })
+    console.log('Primeira imagem enviada para /assets')
     await browser.close()
   })()
 
@@ -36,7 +37,7 @@ prompt.get(['first', 'second'], (err, result) => {
     const page = await browser.newPage()
     await page.goto(result.second.toString())
     await page.screenshot({ path: `./assets/simplescreenshot${new Date()}.png` })
-
+    console.log('Segunda imagem enviada para /assets')
     await browser.close()
   })()
 })
