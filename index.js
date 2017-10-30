@@ -1,7 +1,7 @@
 const prompt = require('prompt')
 const pupp = require('puppeteer')
 
-console.log('Digite os links com http:// ou https://: ')
+console.log('Digite os links com http:// ou https://  ')
 
 //
 // Começa the prompt
